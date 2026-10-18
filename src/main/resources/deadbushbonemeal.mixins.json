@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "deadbushbonemeal.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DryVegetationBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
