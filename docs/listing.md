@@ -13,9 +13,9 @@ Get `deadbushbonemeal-<version>.jar` from [CurseForge](https://www.curseforge.co
 
 ## The guide book
 
-Every player gets a **Dead Bush Bonemeal Guide** the first time they join: a short book about the dead bush, in
-English and German. Right-click opens it; the dead bush's tab is on the left, Getting Started on the right. Lost it?
-Craft a new one from a book and a dead bush, or take it from the creative tab.
+The **Dead Bush Bonemeal Guide** is a short book about the dead bush, in English and German. Craft it from a book and
+a dead bush, or take it from the creative tab. Right-click opens it, E or Escape closes it; the dead bush's tab is on
+the left, Getting Started on the right.
 
 This page follows the book chapter by chapter and adds the details that do not fit on its pages.
 
