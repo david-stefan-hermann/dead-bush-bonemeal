@@ -2,7 +2,7 @@
 
 <img src="src/main/resources/assets/deadbushbonemeal/icon.png" alt="Dead Bush Bonemeal logo: a dead bush on sand with bone meal" width="128" align="right">
 
-A small farming tweak for Minecraft 26.2 (Fabric). **Bone meal spreads dead bushes** exactly the way it spreads
+A small farming tweak for Minecraft 26.3 (Fabric). **Bone meal spreads dead bushes** exactly the way it spreads
 firefly bushes: a new dead bush appears on a free block beside the one you use it on. And **dead bushes drop
 themselves**, broken by hand or with any tool, so you no longer need shears to collect them. The mod adds no items
 and no blocks besides its guide book; it changes the vanilla dead bush. The guide book is in its own creative tab,
@@ -11,7 +11,7 @@ and no blocks besides its guide book; it changes the vanilla dead bush. The guid
 ## Download
 
 Get `deadbushbonemeal-<version>.jar` from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/dead-bush-bonemeal) or the
-[GitHub releases](../../releases) and put it into `mods/` on the client and the server, next to Fabric API. Requires Minecraft 26.2, Fabric Loader 0.19.3+ and Java 25.
+[GitHub releases](../../releases) and put it into `mods/` on the client and the server, next to Fabric API. Requires Minecraft 26.3, Fabric Loader 0.19.5+ and Java 25.
 
 ## The guide book
 

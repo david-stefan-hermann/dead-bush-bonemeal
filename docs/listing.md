@@ -1,6 +1,6 @@
 # Dead Bush Bonemeal
 
-A small farming tweak for Minecraft 26.2 (Fabric). **Bone meal spreads dead bushes** exactly the way it spreads
+A small farming tweak for Minecraft 26.3 (Fabric). **Bone meal spreads dead bushes** exactly the way it spreads
 firefly bushes: a new dead bush appears on a free block beside the one you use it on. And **dead bushes drop
 themselves**, broken by hand or with any tool, so you no longer need shears to collect them. The mod adds no items
 and no blocks besides its guide book; it changes the vanilla dead bush. The guide book is in its own creative tab,
@@ -9,7 +9,7 @@ and no blocks besides its guide book; it changes the vanilla dead bush. The guid
 ## Download
 
 Get `deadbushbonemeal-<version>.jar` from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/dead-bush-bonemeal) or the
-[GitHub releases](https://github.com/david-stefan-hermann/dead-bush-bonemeal/releases) and put it into `mods/` on the client and the server, next to Fabric API. Requires Minecraft 26.2, Fabric Loader 0.19.3+ and Java 25.
+[GitHub releases](https://github.com/david-stefan-hermann/dead-bush-bonemeal/releases) and put it into `mods/` on the client and the server, next to Fabric API. Requires Minecraft 26.3, Fabric Loader 0.19.5+ and Java 25.
 
 ## The guide book
 
@@ -19,7 +19,7 @@ the left, Getting Started on the right.
 
 This page follows the book chapter by chapter and adds the details that do not fit on its pages.
 
-![The guide book open on the Dead Bush chapter](https://raw.githubusercontent.com/david-stefan-hermann/dead-bush-bonemeal/26.2/docs/book.png)
+![The guide book open on the Dead Bush chapter](https://raw.githubusercontent.com/david-stefan-hermann/dead-bush-bonemeal/26.3/docs/book.png)
 
 ## Getting Started
 
@@ -56,4 +56,4 @@ Source and issues: https://github.com/david-stefan-hermann/dead-bush-bonemeal
 
 ## License
 
-MIT, see [LICENSE](https://github.com/david-stefan-hermann/dead-bush-bonemeal/blob/26.2/LICENSE). By BaconCakeFactory.
+MIT, see [LICENSE](https://github.com/david-stefan-hermann/dead-bush-bonemeal/blob/26.3/LICENSE). By BaconCakeFactory.
