@@ -3,7 +3,7 @@
   "id": "deadbushbonemeal",
   "version": "${version}",
   "name": "Dead Bush Bonemeal",
-  "description": "Bone meal spreads dead bushes the way it spreads firefly bushes, and dead bushes drop themselves without shears.",
+  "description": "Bone meal spreads dead bushes and spore blossoms the way it spreads firefly bushes, all three also onto uneven ground and ceilings, and dead bushes drop themselves without shears.",
   "authors": [
     "BaconCakeFactory"
   ],
