@@ -3,7 +3,9 @@
   "package": "deadbushbonemeal.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "DryVegetationBlockMixin"
+    "DryVegetationBlockMixin",
+    "FireflyBushBlockMixin",
+    "SporeBlossomBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

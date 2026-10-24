@@ -37,6 +37,7 @@ public final class GuideBook {
     /** Built when the book opens: item stacks need the registries. */
     public static List<Chapter> chapters() {
         ItemStack bush = new ItemStack(Items.DEAD_BUSH);
+        ItemStack blossom = new ItemStack(Items.SPORE_BLOSSOM);
         ItemStack boneMeal = new ItemStack(Items.BONE_MEAL);
         return List.of(
                 new Chapter(key("start"), new ItemStack(DeadBushBonemeal.GUIDE_BOOK), Chapter.Side.RIGHT, List.of(
@@ -45,6 +46,7 @@ public final class GuideBook {
                         new ItemLine(List.of(bush), key("start.step1")),
                         new ItemLine(List.of(new ItemStack(Items.SAND)), key("start.step2")),
                         new ItemLine(List.of(boneMeal), key("start.step3")),
+                        new ItemLine(List.of(new ItemStack(Items.FIREFLY_BUSH)), key("start.firefly")),
                         new Heading(key("heading.crafting")), BOOK.recipe("guide_book"),
                         new Text(key("start.recipe")))),
                 new Chapter(key("bush"), bush, Chapter.Side.LEFT, List.of(
@@ -57,6 +59,15 @@ public final class GuideBook {
                         new ItemLine(List.of(new ItemStack(Items.SAND), new ItemStack(Items.TERRACOTTA), new ItemStack(Items.DIRT)),
                                 key("bush.ground")),
                         new ItemLine(List.of(new ItemStack(Items.DISPENSER)), key("bush.dispenser")),
-                        new ItemLine(List.of(bush), key("bush.drop")))));
+                        new ItemLine(List.of(bush), key("bush.drop")))),
+                new Chapter(key("blossom"), blossom, Chapter.Side.LEFT, List.of(
+                        new Text(key("blossom.text")), new Quote(key("blossom.motto")),
+                        new Heading(key("heading.finding")),
+                        new Text(key("blossom.finding")),
+                        new Break(),
+                        new Heading(key("heading.use")),
+                        new ItemLine(List.of(boneMeal), key("blossom.bonemeal")),
+                        new ItemLine(List.of(new ItemStack(Items.MOSS_BLOCK), new ItemStack(Items.STONE)), key("blossom.ceiling")),
+                        new ItemLine(List.of(new ItemStack(Items.DISPENSER)), key("blossom.dispenser")))));
     }
 }
